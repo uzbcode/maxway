@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="../../Lesson 18. MaxWay/sass/main.scss">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
 
@@ -1221,7 +1223,31 @@
 
     </div>
 </footer>
-
+<!-- Notification start-->
+<div class="notification">
+	<div class="notification-header">
+		<h3 class="notification-title">New message</h3>
+		<i class="fa fa-times notification-close"></i>
+	</div>
+	<div class="notification-container">
+		<div class="notification-media">
+			<img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
+			alt="" 
+			class="notification-user-avatar">
+			<i class="fa fa-thumbs-up notification-reaction"></i>
+		</div>
+		<div class="notification-content">
+			<p class="notification-text">
+			Sizda yangi buyurtma bor
+			</p>
+			<span class="notification-timer">hozir kelgan xabar</span>
+		</div>
+		<span class="notification-status"></span>
+	</div>
+</div>
+<!-- Notification end-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.11/paper-full.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js'></script>
 
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
