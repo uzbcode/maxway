@@ -643,8 +643,8 @@ html {
           }
           .notification-close {
             cursor: pointer;
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
             border-radius: 30px;
             display: flex;
             align-items: center;
@@ -667,8 +667,8 @@ html {
                object-fit: cover;
           }
           .notification-reaction {
-            width: 30px;
-            height: 30px;
+            width: 20px;
+            height: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
